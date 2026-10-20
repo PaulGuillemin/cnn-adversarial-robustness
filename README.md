@@ -1,6 +1,6 @@
 # CNN Adversarial Robustness
 
-An individual academic project investigating how gradient-based adversarial perturbations affect a CNN trained on CIFAR-10. I trained an image classifier and compared its accuracy on clean inputs, Fast Gradient Method (FGM) inputs and Projected Gradient Descent (PGD) inputs.
+An academic project investigating how gradient-based adversarial perturbations affect a CNN trained on CIFAR-10. I trained an image classifier and compared its accuracy on clean inputs, Fast Gradient Method (FGM) inputs and Projected Gradient Descent (PGD) inputs.
 
 ![Accuracy from the archived experiment](docs/media/archived_accuracy.png)
 
@@ -74,7 +74,7 @@ New checkpoints and metrics are saved under the ignored `runs/` directory. They 
 
 ## Provenance
 
-**Paul Guillemin** · Individual project, Mines Saint-Étienne.
+**Paul Guillemin** · Mines Saint-Étienne.
 
 This repository presents existing academic work. The original school files were left unchanged. The English documentation, result figure and runnable extraction were added during the portfolio import on 20 October 2026. New commits record their actual dates.
 
