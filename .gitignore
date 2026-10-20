@@ -1,0 +1,13 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+data/
+runs/
+*.keras
+*.h5
+*.hdf5
+.env
+.env.*
+*.log

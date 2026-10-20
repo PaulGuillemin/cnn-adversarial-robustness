@@ -1,0 +1,24 @@
+{
+  "source": "notebooks/adversarial_example.ipynb",
+  "source_sha256": "b47de04dbb30bedc9fcbf316f6b0c987e80c1c5e22bd642721b6c5b3499ae4ff",
+  "source_cell_index": 6,
+  "status": "Archived notebook outputs; not a new training run",
+  "dataset": "CIFAR-10 test split",
+  "evaluated_images": 10000,
+  "training_epochs": 10,
+  "training_batch_size": 128,
+  "test_batch_size": 1000,
+  "input_normalization": "image / 127.5 - 1.0",
+  "attack_norm": "Linf",
+  "epsilon": 0.05,
+  "pgd_step_size": 0.01,
+  "pgd_iterations": 40,
+  "adversarial_training": false,
+  "seed_recorded": false,
+  "checkpoint_saved_by_notebook": false,
+  "final_accuracy_percent": {
+    "clean": 81.72,
+    "fgm": 21.67,
+    "pgd": 10.08
+  }
+}
